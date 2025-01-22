@@ -13,7 +13,7 @@ View this repository and associated charts on [ArtifactHUB](https://artifacthub.
 
 # Helm Charts
 
-This repository contains a single Helm chart that uses the [factorhouse/kpow-ee](https://hub.docker.com/r/factorhouse/kpow-ee) container on Dockerhub.
+This repository contains a single Helm chart that uses the [factorhouse/kpow](https://hub.docker.com/r/factorhouse/kpow) container on Dockerhub.
 
 * [Prerequisites](#prerequisites)
 * [Kubernetes](#kubernetes)
@@ -171,7 +171,7 @@ Status:       Running
 ```bash
 kubectl logs --namespace factorhouse $POD_NAME 
 
-11:36:49.111 INFO  [main] operatr.system ? start Kpow
+11:36:49.111 INFO  [main] kpow.system ? start Kpow
 ...
 ```
 
